@@ -48,20 +48,11 @@
 			}
 		}
 
-		public function sendEmail(){
-			$from     = 'suporte@seapegue.com.br'; 
-			$fromName = 'Se Apegue'; 
-			$toName   = $this->name;
-			$subject  = 'Recuperação de Senha'; 
-			$message  = "Olá ".$this->name.".\n"; 
-			$message .= "Segue abaixo o link de recuperação de senha solicitado pelo site Se Apegue. Caso nao tenha solicitado ignore esse Email. \n\n"; 
-			$message .= "Link: ".Request::$_url['site']."recovering/".$this->token."/".$this->email; 
-
+		public function sendEmail($from, $name, $subject, $message, $fromName='', $toName='', ){
 			if (Mail::sendMail($from, $this->email, $subject, $message, $fromName, $toName)) {
 				return true;
 			} else {
 				$this->errorMessage = 'Não conseguimos enviar o email pra você. Entre em contato com o nossa equipe de suporte.';
-
 				return false;
 			}
 		}
