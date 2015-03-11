@@ -2,15 +2,18 @@
 
 	return [
 		// Define a redirect render 
-		'redirect_loged' => 'profile',
+		'redirect_loged' => 'publication',
 		'redirect_unloged' => 'login',
 		// If access control is seted, this render require be logged
 		'logged' => [
-			'profile',
+			'account',
 			'crop',
 			'deactive_account',
 			'logout',
+			'my_publication',
+			'my_sponsored',
 			'publish',
+			'sponsored',
 		],
 		// If access control is seted, this render require be unlogged
 		'unlogged' => [
@@ -24,8 +27,17 @@
 			'about',
 			'contact',
 			'support',
+			'supporting',
 			'terms',
+			'thankyou',
+			'detail',
+			'message',
+			'publication',
+			'user',
+			'test',
 			'Lidiun\Redirecting',
+			'disallowed',
+			'illegal',
 			'',
 		],
 	];

@@ -1,5 +1,5 @@
 <?php
-	namespace App\Plugin\Dyonenedi;
+	namespace Plugin\Dyonenedi;
 	
 	Class Pic 
 	{

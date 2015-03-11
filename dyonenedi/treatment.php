@@ -1,6 +1,6 @@
 <?php
 
-	namespace App\Plugin\Dyonenedi;
+	namespace Plugin\Dyonenedi;
 
 	use Lidiun\Request;
 

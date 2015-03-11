@@ -1,11 +1,11 @@
 <?php
 	
-	namespace App\Plugin\Dyonenedi;
+	namespace Plugin\Dyonenedi;
 	
 	use Lidiun\Request;
-	use App\Plugin\Dyonenedi\Building;
-	use App\Plugin\Dyonenedi\Mail;
-	use App\Plugin\Dyonenedi\Encrypt;
+	use \Plugin\Dyonenedi\Building;
+	use \Plugin\Dyonenedi\Mail;
+	use \Plugin\Dyonenedi\Encrypt;
 
 	Class Recovery
 	{
@@ -48,11 +48,20 @@
 			}
 		}
 
-		public function sendEmail($from, $name, $subject, $message, $fromName='', $toName='', ){
+		public function sendEmail(){
+			$from     = 'suporte@seapegue.com.br'; 
+			$fromName = 'Se Apegue'; 
+			$toName   = $this->name;
+			$subject  = 'Recuperação de Senha'; 
+			$message  = "Olá ".$this->name.".\n"; 
+			$message .= "Segue abaixo o link de recuperação de senha solicitado pelo site Se Apegue. Caso nao tenha solicitado ignore esse Email. \n\n"; 
+			$message .= "Link: ".Request::$_url['site']."recovering/".$this->token."/".$this->email; 
+
 			if (Mail::sendMail($from, $this->email, $subject, $message, $fromName, $toName)) {
 				return true;
 			} else {
 				$this->errorMessage = 'Não conseguimos enviar o email pra você. Entre em contato com o nossa equipe de suporte.';
+
 				return false;
 			}
 		}
