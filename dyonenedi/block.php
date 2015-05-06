@@ -1,5 +1,5 @@
 <?php
-	
+
 	namespace Plugin\Dyonenedi;
 
 	Class Block
