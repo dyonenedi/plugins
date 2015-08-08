@@ -9,9 +9,9 @@ Tenha uma visão geral aqui:[http://dyonenedi.github.io/lidiun-framework/](http:
 
 # Relacionados
 - Baixe o core do framework (Precisa conhecer o Lidiun): [Clique aqui](https://github.com/dyonenedi/lidiun-framework)<br>
-- Baixe uma aplicação default para o framework (Precisa conhecer o Lidiun): [Clique aqui](https://github.com/dyonenedi/lidiun-app)<br>
+- Baixe uma aplicação default para o framework (Precisa conhecer o Lidiun): [Clique aqui](http://www.lidiun.com.br/downloading/app/)<br>
 - Baixe plugins para o framework (Precisa conhecer o Lidiun): [Clique aqui](https://github.com/dyonenedi/lidiun-plugin)<br>
-- Baixe um pacote com todas as opções acima (Qualquer desenvolvedor): [Clique aqui](https://github.com/dyonenedi/lidiun-package)<br>
+- Baixe um pacote com todas as opções acima (Qualquer desenvolvedor): [Clique aqui](http://www.lidiun.com.br/downloading/package/)<br>
 
 
 
