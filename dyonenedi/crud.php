@@ -71,7 +71,7 @@
 		public function read($select=false,$param=false,$inner=false,$end='') {
 			$select = empty($select) ? '*': $select; 
 			$join   = "";
-			$where  = "1";
+			$where  = "1=1";
 
 			if ($param && is_array($param)) {
 				foreach ($param as $key => $val) {
