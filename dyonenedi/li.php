@@ -1,8 +1,8 @@
 <?php
 	namespace Plugin\Dyonenedi;
 	
-	use Lidiun\Path;
-	use Lidiun\Database;
+	use Lidiun_Framework_v5\Path;
+	use Lidiun_Framework_v5\Database;
 
 	class Li
 	{

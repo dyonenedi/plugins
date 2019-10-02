@@ -1,10 +1,10 @@
 <?php
 	namespace Plugin\Dyonenedi;
 	
-	use Lidiun\Request;
-	use Lidiun\Render;
-	use Lidiun\Path;
-	use Lidiun\Conf;
+	use Lidiun_Framework_v5\Request;
+	use Lidiun_Framework_v5\Render;
+	use Lidiun_Framework_v5\Path;
+	use Lidiun_Framework_v5\Conf;
 
 	class Auth
 	{

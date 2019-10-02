@@ -1,6 +1,6 @@
 <?php
-	use Lidiun\Layout;
-	use Lidiun\Path;
+	use Lidiun_Framework_v5\Layout;
+	use Lidiun_Framework_v5\Path;
 	use Plugin\Dyonenedi\Li;
 
 	Class Generate

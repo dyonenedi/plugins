@@ -2,7 +2,7 @@
 	
 	namespace Plugin\Dyonenedi;
 	
-	use Lidiun\Request;
+	use Lidiun_Framework_v5\Request;
 	use \Plugin\Dyonenedi\Building;
 	use \Plugin\Dyonenedi\Mail;
 	use \Plugin\Dyonenedi\Encrypt;

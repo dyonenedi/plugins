@@ -2,7 +2,7 @@
 
 	namespace Plugin\Dyonenedi;
 	
-	use Lidiun\Conf;
+	use Lidiun_Framework_v5\Conf;
 
 	Class Encrypt
 	{

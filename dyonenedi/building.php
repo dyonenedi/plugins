@@ -2,7 +2,7 @@
 
 	namespace Plugin\Dyonenedi;
 
-	use Lidiun\Database;
+	use Lidiun_Framework_v5\Database;
 
 	Class Building
 	{

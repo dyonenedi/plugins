@@ -2,8 +2,8 @@
 	
 	namespace Plugin\Dyonenedi;
 
-	use Lidiun\Render;
-	use Lidiun\Layout;
+	use Lidiun_Framework_v5\Render;
+	use Lidiun_Framework_v5\Layout;
 
 	Class menu_active 
 	{

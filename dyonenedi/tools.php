@@ -2,9 +2,9 @@
 
 	namespace Plugin\Dyonenedi;
 
-	use Lidiun\Layout;
-	use Lidiun\Link;
-	use Lidiun\Path;
+	use Lidiun_Framework_v5\Layout;
+	use Lidiun_Framework_v5\Link;
+	use Lidiun_Framework_v5\Path;
 
 	Class Tools
 	{
